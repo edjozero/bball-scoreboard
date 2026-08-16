@@ -5,3 +5,9 @@ function addPoints(team, points) {
   scoreElement.textContent = newScore;
 }
 
+function resetScores() {
+  const homeScoreElement = document.getElementById('home-score');
+  const guestScoreElement = document.getElementById('guest-score');
+  homeScoreElement.textContent = '0';
+  guestScoreElement.textContent = '0';
+}

@@ -60,3 +60,14 @@ h3{
     cursor: pointer;
     font-family: "CursedTimer", sans-serif;
 }
+
+.resetBtn{
+    padding: 8px;
+    border: 1px solid #e9ecef;
+    border-radius: 5px;
+    background-color: #233358;
+    color: #e9ecef;
+    cursor: pointer;
+    font-family: "CursedTimer", sans-serif;
+    align-self: flex-end;
+}
