@@ -15,24 +15,24 @@
             <h3>HOME</h3>
             <p id="home-score" class="score">0</p>
             <div class="buttons">
-                <button class="pointsBtn">+1</button>
-                <button class="pointsBtn">+2</button>
-                <button class="pointsBtn">+3</button>
+                <button class="pointsBtn" onclick="addPoints('home', 1)">+1</button>
+                <button class="pointsBtn" onclick="addPoints('home', 2)">+2</button>
+                <button class="pointsBtn" onclick="addPoints('home', 3)">+3</button>
             </div>
         </div>
         <div class="scoreboard">
             <h3>GUEST</h3>
             <p id="guest-score" class="score">0</p>
             <div class="buttons">
-                <button class="pointsBtn">+1</button>
-                <button class="pointsBtn">+2</button>
-                <button class="pointsBtn">+3</button>
+                <button class="pointsBtn" onclick="addPoints('guest', 1)">+1</button>
+                <button class="pointsBtn" onclick="addPoints('guest', 2)">+2</button>
+                <button class="pointsBtn" onclick="addPoints('guest', 3)">+3</button>
             </div>
         </div>
     </div>
 
 
-    <script src="index.js"></script>
+    <script src="script.js"></script>
   </body>
 
 </html>
